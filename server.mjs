@@ -7,7 +7,7 @@ app.use(cors());
 
 mongoose
   .connect(
-    "mongodb+srv://venkateshwaran2316:12334@cluster0.vdp9kpr.mongodb.net/astroDb?retryWrites=true&w=majority&appName=Cluster0"
+    "mongourl"
   )
   .then(() => {
     console.log("db connectes");
